@@ -1,0 +1,340 @@
+/* Admin styles for Lost and Found Portal */
+
+/* Admin navbar customization */
+.navbar-admin {
+    background: linear-gradient(90deg, #343a40, #23272b);
+}
+
+/* Admin dashboard */
+.admin-dashboard {
+    margin-bottom: 2rem;
+}
+
+.admin-card {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.admin-card .card-body {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.admin-card .icon {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: #4a6fdc;
+}
+
+.admin-card .info {
+    flex-grow: 1;
+}
+
+.admin-card .number {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    line-height: 1;
+}
+
+.admin-card .label {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+/* Admin tables */
+.admin-table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.admin-table .table {
+    margin-bottom: 0;
+}
+
+.admin-table .table th {
+    border-top: none;
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+.admin-table .table td {
+    vertical-align: middle;
+}
+
+.admin-table .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.admin-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.admin-actions .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Admin filters */
+.admin-filters {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-filters .form-group {
+    margin-bottom: 0;
+}
+
+/* Stats cards */
+.admin-stats {
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.stat-icon.bg-primary {
+    background-color: #e8f0ff;
+    color: #4a6fdc;
+}
+
+.stat-icon.bg-success {
+    background-color: #e8f5e9;
+    color: #28a745;
+}
+
+.stat-icon.bg-warning {
+    background-color: #fff8e1;
+    color: #ffc107;
+}
+
+.stat-icon.bg-danger {
+    background-color: #ffebee;
+    color: #dc3545;
+}
+
+.stat-info h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.stat-info p {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+/* Admin forms */
+.admin-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-form legend {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 1rem;
+}
+
+/* Admin modals */
+.admin-modal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.admin-modal .modal-title {
+    font-weight: 600;
+}
+
+.admin-modal .modal-footer {
+    border-top: 1px solid #f1f1f1;
+}
+
+/* Recent items widget */
+.recent-items {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recent-items h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.recent-items .list-group-item {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0.75rem 0;
+}
+
+.recent-items .list-group-item:first-child {
+    border-top: none;
+}
+
+.recent-items .list-group-item:last-child {
+    border-bottom: none;
+}
+
+.recent-items .list-title {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.recent-items .list-meta {
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+/* Admin tabs */
+.admin-tabs {
+    margin-bottom: 1.5rem;
+}
+
+.admin-tabs .nav-link {
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-right: 0.5rem;
+    color: #495057;
+}
+
+.admin-tabs .nav-link.active {
+    background-color: #4a6fdc;
+    color: white;
+}
+
+.admin-tabs .nav-link:hover:not(.active) {
+    background-color: #f1f1f1;
+}
+
+/* Admin pagination */
+.admin-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+/* Item status colors */
+.status-pending {
+    color: #ffc107;
+}
+
+.status-verified {
+    color: #28a745;
+}
+
+.status-resolved {
+    color: #4a6fdc;
+}
+
+.status-rejected {
+    color: #dc3545;
+}
+
+/* User role badges */
+.role-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.role-admin {
+    background-color: #4a6fdc;
+    color: white;
+}
+
+.role-user {
+    background-color: #f1f1f1;
+    color: #495057;
+}
+
+/* Admin sidebar (if needed) */
+.admin-sidebar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.admin-sidebar a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    padding: 0.5rem 0;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.admin-sidebar a:hover {
+    color: white;
+    padding-left: 0.5rem;
+}
+
+.admin-sidebar a.active {
+    color: white;
+    font-weight: 600;
+}
+
+.admin-sidebar .sidebar-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}

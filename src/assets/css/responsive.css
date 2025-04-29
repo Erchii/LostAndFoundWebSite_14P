@@ -1,0 +1,214 @@
+/* Responsive Styles for Lost and Found Portal */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    .hero {
+        padding: 2rem 0;
+    }
+    
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+    }
+    
+    .card-img-top {
+        height: 160px;
+    }
+    
+    .item-image {
+        height: 200px;
+    }
+    
+    .item-title {
+        font-size: 1.5rem;
+    }
+    
+    .stats-icon {
+        font-size: 2rem;
+    }
+    
+    .stats-number {
+        font-size: 1.5rem;
+    }
+    
+    .profile-header {
+        padding: 1.5rem;
+    }
+    
+    .search-form {
+        padding: 15px;
+    }
+    
+    .btn {
+        padding: 6px 12px;
+        font-size: 0.875rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero {
+        padding: 3rem 0;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .card-img-top {
+        height: 175px;
+    }
+    
+    .stats-number {
+        font-size: 1.75rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/* Item cards in grid */
+@media (min-width: 576px) {
+    .items-grid .card {
+        height: 100%;
+    }
+    
+    .items-grid .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .items-grid .card-text {
+        flex-grow: 1;
+    }
+}
+
+/* Search form responsiveness */
+@media (max-width: 767.98px) {
+    .search-form .form-row > div {
+        margin-bottom: 15px;
+    }
+    
+    .search-form .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Admin dashboard responsiveness */
+@media (max-width: 991.98px) {
+    .admin-stats > div {
+        margin-bottom: 20px;
+    }
+}
+
+/* Footer responsiveness */
+@media (max-width: 767.98px) {
+    footer .text-md-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+    
+    footer h5 {
+        margin-top: 15px;
+    }
+}
+
+/* Mobile optimization for forms */
+@media (max-width: 575.98px) {
+    .form-group label {
+        margin-bottom: 0.25rem;
+    }
+    
+    .form-control {
+        font-size: 0.875rem;
+        padding: 8px 10px;
+    }
+}
+
+/* Notification list on mobile */
+@media (max-width: 575.98px) {
+    .notification-list {
+        max-height: 300px;
+    }
+    
+    .notification-item {
+        padding: 0.75rem;
+    }
+}
+
+/* Profile page on mobile */
+@media (max-width: 767.98px) {
+    .profile-header {
+        text-align: center;
+    }
+    
+    .profile-stats {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+}
+
+/* Item details page on mobile */
+@media (max-width: 575.98px) {
+    .item-details .card {
+        margin-bottom: 15px;
+    }
+    
+    .item-contact .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Admin tables on mobile */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+    
+    .admin-actions .btn {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+}
+
+/* Navigation on mobile */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #4a6fdc;
+        padding: 10px;
+        border-radius: 0 0 8px 8px;
+    }
+}
+
+/* Pagination on mobile */
+@media (max-width: 575.98px) {
+    .pagination .page-link {
+        padding: 0.375rem 0.5rem;
+    }
+}
