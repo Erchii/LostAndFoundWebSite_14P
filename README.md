@@ -108,13 +108,42 @@ Open your browser and navigate to:
 - Limited mobile support.
 - No integration with external notification services.
 
-### References
-- https://www.php.net/manual/en/
-- https://www.php.net/manual/en/book.pdo.php
-- https://www.php.net/manual/en/book.filter.php
-- https://github.com/vlucas/phpdotenv
-- https://dev.mysql.com/doc/
-- https://getbootstrap.com/
+
+
+## References
+
+### Languages and Technologies
+- **PHP** — Core programming language. [PHP Documentation](https://www.php.net/docs.php)
+- **MySQL** — Relational database for data storage. [MySQL Documentation](https://dev.mysql.com/doc/)
+- **HTML/CSS** — For user interface design and styling.
+- **JavaScript** — Adds interactivity to the frontend.
+- **Bootstrap** — Framework for responsive web design. [Bootstrap Documentation](https://getbootstrap.com/)
+
+### Libraries and Frameworks
+- **PDO (PHP Data Objects)** — For secure database interactions.  
+  [PDO Manual](https://www.php.net/manual/en/book.pdo.php)
+- **PHPMailer** — Handles email notifications.  
+  [PHPMailer GitHub](https://github.com/PHPMailer/PHPMailer)
+
+### Tools and Utilities
+- **Composer** — Dependency management for PHP.  
+  [Composer Documentation](https://getcomposer.org/)
+- **Git** — Version control system for tracking changes.  
+  [Git Documentation](https://git-scm.com/doc)
+- **Session Management** — Built-in PHP functionality for user state management.
+
+### APIs and External Services
+- **SMTP (Simple Mail Transfer Protocol)** — For sending emails securely using PHPMailer.
+
+### Modules and Architecture
+- **User.php** — Manages user data, including registration and authentication.
+- **Item.php** — Handles lost and found item records.
+- **Notification.php** — Implements user notifications.
+
+### Auxiliary Files
+- **Validation.php** — Validates user inputs (email, password, phone, images).
+- **Helpers.php** — Utility functions for data transformation and general support.
+
 
 
 
