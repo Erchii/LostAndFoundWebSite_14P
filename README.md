@@ -1,6 +1,17 @@
 # Lost and Found Portal
 
-A comprehensive web application for reporting and searching for lost and found items. Users can create accounts, post lost or found items, search for matches, and connect with each other to recover lost belongings.
+Introduction
+Lost and Found Portal is a web application designed to simplify the process of reporting and retrieving lost items. Users can post lost or found item listings, search for matches, and contact each other for item returns.
+
+
+
+Problem Statement
+In university campuses and public areas, personal belongings are frequently lost, causing stress and inconvenience. The absence of a centralized system for reporting lost and found items makes it difficult to return them to their owners.
+
+Objectives
+- Create a user-friendly platform for posting and searching lost/found items.
+- Provide an efficient filtering system for quick match discovery.
+- Offer an admin panel for content moderation and user management.
 
 ## Features
 
@@ -15,9 +26,7 @@ A comprehensive web application for reporting and searching for lost and found i
 
 - **Backend**: PHP
 - **Database**: MySQL
-- **Frontend**: HTML, CSS, JavaScript
-- **CSS Framework**: Bootstrap 4
-- **Icons**: Font Awesome
+- **Frontend**: HTML, CSS, JavaScript(Bootstrap 4, Font Awesome)
 - **Containerization**: Docker
 
 ## Installation
@@ -31,8 +40,11 @@ A comprehensive web application for reporting and searching for lost and found i
 1. **Clone the repository**
 
 ```bash
-git clone <repository-url>
-cd lost-and-found-portal
+git clone https://github.com/Erchii/LostAndFoundWebSite_14P
+```
+
+```bash
+cd LostAndFoundWebSite_14P
 ```
 
 2. **Configure environment variables**
@@ -89,6 +101,18 @@ Open your browser and navigate to:
 - **Password**: password
 - **Email**: admin@example.com
 
+
+
+### Testing
+There are currently no automated tests. Manual testing is recommended by using the application as described above.
+
+### Known Issues / Limitations
+- No automated tests.
+- Limited mobile support.
+- No integration with external notification services.
+
+
+
 ## Project Structure
 
 ```
@@ -109,33 +133,13 @@ lost-and-found-portal/
 └── README.md                # Project documentation
 ```
 
-## Development
 
-To make changes to the project:
 
-1. The source code is in the `src` directory
-2. Database schema is in `database/init.sql`
-3. After making changes, rebuild the containers:
 
-```bash
-docker-compose down
-docker-compose up -d --build
-```
+### Team Members
+Yerassyl Issayev, 220103164, 14-p
+Ismailov Nurbakh, 220103264, 14-p
+Bakyt Gulnar, 220103099, 13-p
+Nazarov Darkhan, 220103319, 13-p
+Zhailaubayev Yrysdaulet, 220103081, 13-p
 
-## Customization
-
-- Application settings can be modified in `src/config/config.php`
-- Styling can be customized in `src/assets/css/`
-- Database schema can be modified in `database/init.sql`
-
-## License
-
-[MIT License](LICENSE)
-
-## Credits
-
-Developed as a project for lost and found item management.
-
-## Support
-
-For support, please open an issue in the repository.
