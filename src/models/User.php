@@ -1,4 +1,9 @@
 <?php
+
+// User class manages user-related operations such as retrieval, creation, updating, and deletion of user accounts.
+ //It includes methods for role-based filtering, password management, user search, 
+ //and statistical functions like counting users by role or search results.
+
 class User {
     private $db;
     

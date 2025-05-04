@@ -1,4 +1,10 @@
 <?php
+
+// Item model manages database operations for items, including retrieval, creation, updating, deletion, and search.
+// It supports filtering by type, status, user, category, and date, as well as pagination and counting results.
+// Also handles categories and contact records related to items.
+
+
 class Item {
     private $db;
     

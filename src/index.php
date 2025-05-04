@@ -1,4 +1,10 @@
 <?php
+
+// Entry point of the application: handles routing, session control, and page rendering.
+// Loads configuration, utilities, models, and controllers.
+// Implements basic authentication and authorization checks for users and admins.
+// Directs requests to the appropriate controller and action based on URL parameters.
+
 // Start session
 session_start();
 

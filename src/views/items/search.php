@@ -1,5 +1,14 @@
 <?php $pageTitle = 'Search Items'; ?>
 
+
+<!-- This code displays the "Search Items" page where users can search for lost and found items. 
+ It features a hero section with calls to action for reporting lost and found items,
+  a search form with both basic and advanced filters, and the ability to sort search results.
+   Additionally, it shows the search results with pagination, a list of featured categories,
+    and a section explaining how the platform works, encouraging users to sign up, report items, search,
+     and connect with others to recover lost items. -->
+
+
 <!-- Hero Section -->
 <div class="hero text-center">
     <div class="container">

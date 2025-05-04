@@ -1,4 +1,9 @@
 <?php
+
+// Application configuration: Loads environment variables from .env file and defines constants for application, 
+//database, mail, upload, pagination, and session settings.
+
+
 // Load environment variables from .env file
 $env = parse_ini_file(dirname(__DIR__) . '/.env');
 

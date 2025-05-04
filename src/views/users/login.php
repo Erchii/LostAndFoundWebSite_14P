@@ -1,5 +1,11 @@
 <?php $pageTitle = 'Login'; ?>
 
+<!-- This code displays the "Login" page where users can enter their username and password to log in.
+  The form includes input fields for the username and password, with a toggle button to reveal or hide the password. 
+  After the user submits the form, it sends the login data to the "doLogin" action of the user page.
+   A link to the registration page is also provided for users who do not have an account. -->
+
+
 <div class="row justify-content-center">
     <div class="col-md-6">
         <div class="card">

@@ -3,6 +3,13 @@ $pageTitle = isset($_GET['type']) && $_GET['type'] === 'found' ? 'Found Items' :
 $itemType = isset($_GET['type']) ? $_GET['type'] : 'lost';
 ?>
 
+<!-- This script displays a list of either "Lost" or "Found" items, with filtering options based on category, status, and type. 
+ Users can report new items, and if no items match the filter, an "empty state" message is shown. 
+ The page also supports pagination to navigate through multiple pages of results. 
+ Each item includes basic details, with an option to view more details about the item. -->
+
+
+
 <div class="row">
     <div class="col-lg-12">
         <div class="d-flex justify-content-between align-items-center mb-4">

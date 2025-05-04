@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<!-- This file provides the structure for the webpage's head, navigation bar,
+  and dynamic main content. It includes stylesheets, session-based user role handling, 
+  and navigation links for different user actions. -->
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

@@ -1,4 +1,9 @@
 <?php
+
+// Controller for admin panel: manages dashboard, 
+// Item moderation (verify/reject/resolve), and user management (list/edit/update/delete).
+
+
 class AdminController {
     private $itemModel;
     private $userModel;

@@ -103,13 +103,18 @@ Open your browser and navigate to:
 
 
 
-### Testing
-There are currently no automated tests. Manual testing is recommended by using the application as described above.
-
 ### Known Issues / Limitations
 - No automated tests.
 - Limited mobile support.
 - No integration with external notification services.
+
+### References
+- https://www.php.net/manual/en/
+- https://www.php.net/manual/en/book.pdo.php
+- https://www.php.net/manual/en/book.filter.php
+- https://github.com/vlucas/phpdotenv
+- https://dev.mysql.com/doc/
+- https://getbootstrap.com/
 
 
 
@@ -137,9 +142,9 @@ lost-and-found-portal/
 
 
 ### Team Members
-Yerassyl Issayev, 220103164, 14-p
-Ismailov Nurbakh, 220103264, 14-p
-Bakyt Gulnar, 220103099, 13-p
-Nazarov Darkhan, 220103319, 13-p
-Zhailaubayev Yrysdaulet, 220103081, 13-p
+- Yerassyl Issayev, 220103164, 14-p
+- Ismailov Nurbakh, 220103264, 14-p
+- Bakyt Gulnar, 220103099, 13-p
+- Nazarov Darkhan, 220103319, 13-p
+- Zhailaubayev Yrysdaulet, 220103081, 13-p
 

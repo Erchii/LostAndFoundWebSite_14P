@@ -1,5 +1,12 @@
 <?php $pageTitle = h($item['title']); ?>
 
+<!-- This script displays detailed information about a specific lost or found item. 
+ It includes options for admins and users to interact with the item, such as contacting the poster, editing, or deleting.
+  Additionally, it shows similar items based on category and type, and includes functionality for admin approval,
+ rejection, and resolving the item status. -->
+
+
+
 <div class="row">
     <div class="col-lg-8">
         <div class="card item-details">

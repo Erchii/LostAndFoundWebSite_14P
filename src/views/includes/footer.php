@@ -1,5 +1,9 @@
 </main>
     
+    <!-- This file defines the main structure of the webpage, including a responsive footer with site info, 
+     navigation links, user account options, and JavaScript integrations for functionality. -->
+
+
     <!-- Footer -->
     <footer class="bg-dark text-white py-4 mt-4">
         <div class="container">

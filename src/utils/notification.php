@@ -1,4 +1,9 @@
 <?php
+
+// Functions for sending email notifications related to items, status changes, and contact requests,
+// along with displaying flash messages.
+
+
 /**
  * Send email notification
  */

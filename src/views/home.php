@@ -1,5 +1,17 @@
 <?php $pageTitle = 'Welcome to Lost and Found Portal'; ?>
 
+
+<!--
+// This page displays the main Lost and Found portal. It includes:
+// 1. A hero section with options to report lost or found items.
+// 2. Platform statistics such as success rate, total users, and items resolved.
+// 3. A quick search form to filter items by keyword, type, and category.
+// 4. A display of recently added items, with links to view more or add an item.
+// 5. A "How It Works" section explaining the process of reporting and recovering lost/found items.
+// 6. Success stories from users sharing their positive experiences with the platform.
+-->
+
+
 <!-- Hero Section с большим баннером -->
 <div class="hero text-center py-5">
     <div class="container">

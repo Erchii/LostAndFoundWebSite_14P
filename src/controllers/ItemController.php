@@ -1,4 +1,12 @@
 <?php
+
+// ItemController class handles all operations related to lost and found items.
+// It includes methods for displaying, searching, creating, updating, viewing, and deleting items.
+// Also manages notifications for admins and user access control for each action.
+// Constructor loads models for item, user, and notification operations.
+// Access to certain actions is restricted to authenticated users or admins.
+
+
 class ItemController {
     private $itemModel;
     private $userModel;

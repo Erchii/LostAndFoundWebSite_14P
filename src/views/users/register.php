@@ -1,5 +1,15 @@
 <?php $pageTitle = 'Register'; ?>
 
+
+<!-- This code displays the "Register" page, 
+ where users can create an account by providing essential details such as username,
+  email, password, and personal information. 
+  It also includes fields for confirming the password and optionally adding a phone number.
+   The form validates that the user agrees to the Terms of Service and Privacy Policy, which are displayed in modals.
+    After submission, form data is preserved in the session for re-population in case of validation errors. 
+    The page also includes a link to the login page for existing users.-->
+
+
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="card">

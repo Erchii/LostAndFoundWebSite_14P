@@ -1,4 +1,11 @@
 <?php
+
+// Notification class handles operations for managing user notifications, 
+//including retrieval, creation, updates, and deletion. 
+//It supports actions like marking notifications as read, 
+//generating status updates for items and contacts, and notifying users of relevant events.
+
+
 class Notification {
     private $db;
     

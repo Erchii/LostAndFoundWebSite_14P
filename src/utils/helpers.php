@@ -1,4 +1,9 @@
 <?php
+
+// Functions for various utilities: date and time formatting, pagination generation, 
+//file upload error handling, and other helpful operations.
+
+
 /**
  * Display formatted date
  */

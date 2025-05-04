@@ -1,5 +1,12 @@
 <?php $pageTitle = 'Admin Dashboard'; ?>
 
+
+ <!--// The Admin Dashboard provides an interface for administrators to manage and monitor key metrics, 
+ user activities, and item statuses. It includes features such as stats overview, 
+ quick actions, lists of pending items and recently registered users,
+  and the ability to perform actions like verification, rejection, and user management. 
+It also contains a modal for rejecting items with an explanation.-->
+
 <div class="admin-dashboard">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2>Admin Dashboard</h2>

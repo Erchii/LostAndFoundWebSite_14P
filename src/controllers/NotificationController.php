@@ -1,4 +1,10 @@
 <?php
+
+// NotificationController handles user notifications: listing, viewing, and marking them as read.
+// It checks user authentication, supports pagination, and manages both individual and bulk read actions.
+// The constructor ensures the user is logged in before accessing notification-related actions.
+
+
 class NotificationController {
     private $notificationModel;
     

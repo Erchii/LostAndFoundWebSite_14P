@@ -1,5 +1,11 @@
 <?php $pageTitle = 'Post an Item'; ?>
 
+<!-- This script generates a form for users to post lost or found items. 
+ It dynamically validates input fields, supports image uploads, 
+ and stores session data for better user experience. -->
+
+
+
 <div class="row justify-content-center">
     <div class="col-lg-8">
         <div class="card">

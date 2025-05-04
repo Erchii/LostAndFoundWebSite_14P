@@ -1,4 +1,10 @@
 <?php
+
+// Database class: Provides a singleton instance for database connection and includes methods for querying,
+ //inserting, updating, and deleting data using PDO.
+ // Supports transactions and error handling based on application debug mode.
+
+
 require_once 'config.php';
 
 class Database {

@@ -1,5 +1,13 @@
 <?php $pageTitle = 'My Notifications'; ?>
 
+
+<!-- This code displays the "My Notifications" page where users can view their notifications. 
+ It features a list of notifications, with an option to mark all as read if there are unread notifications. 
+ Each notification includes a title, message, and timestamp, with a button to mark individual notifications as read. 
+ If the notification is related to an item, a "View Item" button is displayed.
+  Additionally, pagination is provided if there are multiple pages of notifications. -->
+
+
 <div class="container">
     <div class="row mb-4">
         <div class="col-lg-12">

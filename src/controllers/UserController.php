@@ -1,4 +1,10 @@
 <?php
+
+// UserController handles user-related operations such as login, registration, profile management, and logout.
+// It validates input data, manages sessions, updates user profiles, and interacts with models for users, items, and notifications.
+// Includes access control to restrict unauthorized access to certain features.
+
+
 class UserController {
     private $userModel;
     private $itemModel;

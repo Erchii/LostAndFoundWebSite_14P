@@ -1,4 +1,9 @@
 <?php
+
+// Functions to validate various inputs including email, date, time, phone number,
+// password strength, username, URL, image type, file size, and required fields.
+
+
 /**
  * Validate email address
  */

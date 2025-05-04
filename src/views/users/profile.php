@@ -1,5 +1,12 @@
 <?php $pageTitle = 'My Profile'; ?>
 
+
+<!-- This code displays the "My Profile" page, which includes a user's personal information, profile stats,
+  and a list of their posted items. It also provides quick actions for the user such as posting a new item, 
+  viewing notifications, and logging out. If the user is an admin,
+   an additional link to the admin dashboard is displayed. -->
+
+
 <div class="container">
     <!-- Profile Header -->
     <div class="profile-header mb-4">
